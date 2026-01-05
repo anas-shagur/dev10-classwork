@@ -1,0 +1,1 @@
+API_URL = "https://corbos.github.io/db/insects.json"

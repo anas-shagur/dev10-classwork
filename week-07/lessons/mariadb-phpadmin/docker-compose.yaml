@@ -1,0 +1,23 @@
+services:
+  # 1. database
+  db:
+    image: mariadb:latest
+    hostname: mariadb
+    environment:
+      - MARIADB_ROOT_PASSWORD=top-secret
+    volumes:
+      - maria-data:/var/lib/mysql
+  # 2. database administration
+  admin:
+    image: phpmyadmin
+    restart: unless-stopped
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+    depends_on:
+      - db
+# 3.
+volumes:
+  maria-data:
+    driver: local

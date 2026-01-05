@@ -1,0 +1,73 @@
+anonymous_id,movie_name,genre,rating,review_date
+19,Wicked,Musical,8.89,2024-09-19
+11,Wicked,Musical,1.11,2024-02-09
+3,,Musical,4.37,2024-10-14
+6,Wicked,Musical,8.94,2024-02-23
+5,Wicked,Musical,1.76,2024-04-07
+18,Wicked,Musical,7.21,2024-01-15
+10,Wicked,,7.22,2024-12-27
+13,Wicked,Musical,2.06,2024-06-10
+21,Wicked,Musical,6.39,2024-02-08
+35,Wicked,Musical,7.89,2024-07-02
+2,Bridesmaids,Comedy,4.55,2024-03-27
+11,Bridesmaids,Comedy,1.67,
+14,Bridesmaids,Comedy,8.14,2024-04-08
+8,Bridesmaids,Comedy,8.03,2024-06-26
+17,Bridesmaids,Comedy,67%,2024-10-22
+16,Bridesmaids,Comedy,9.22,2024-07-17
+1,Bridesmaids,Comedy,9.65,2025-01-10
+9,Bridesmaids,Comedy,4.55,2024-09-03
+4,,Comedy,5.63,
+12,"Nickel Boys",Drama,8.73,2024-01-13
+14,"Nickel Boys",Drama,9.65,2024-04-17
+8,"Nickel Boys",Drama,4.47,2024-03-29
+6,"Nickel Boys",Drama,2.91,2024-02-07
+16,"Nickel Boys",Drama,3.67,2024-09-01
+15,"Nickel Boys",Drama,7.76,2024-11-20
+1,"Nickel Boys",Drama,7.14,2024-06-05
+9,"Nickel Boys",Drama,2.89,2024-10-28
+4,,Drama,5.07,2024-01-21
+2,"The Exorcist",Horror,9.42,2024-08-02
+11,"The Exorcist",Horror,2.91,2024-01-23
+8,"The Exorcist",Horror,5.75,2024-04-25
+6,"The Exorcist",Horror,6.04,2024-08-25
+5,"The Exorcist",Horror,42%,2025-01-01
+15,"The Exorcist",Horror,6.83,2024-06-28
+13,"The Exorcist",Horror,8.18,2024-09-20
+,"Alien: Romulus",Sci-Fi,5.37,2024-12-13
+11,"Alien: Romulus",Sci-Fi,6.83,2024-12-30
+8,"Alien: Romulus",Horror,5.75,2024-07-01
+20,"Alien: Romulus",Sci-Fi,7.96,2024-12-15
+17,"Alien: Romulus",Sci-Fi,4.98,2024-08-26
+15,"Alien: Romulus",Sci-Fi,4.56,2024-06-18
+13,"Alien: Romulus",Sci-Fi,1.02,2024-06-20
+4,"Alien: Romulus",Sci-Fi,8.92,2024-06-15
+11,"The Killing of a Sacred Deer",Thriller,6.10,2024-12-16
+22,"The Killing of a Sacred Deer",,8.99,
+3,"The Killing of a Sacred Deer",Thriller,1.84,2024-04-17
+6,"The Killing of a Sacred Deer",Thriller,7.89,2024-11-06
+5,"The Killing of a Sacred Deer",Thriller,6.08,
+18,"The Killing of a Sacred Deer",Thriller,8.91,2024-08-09
+13,"The Killing of a Sacred Deer",Thriller,6.24,2024-11-17
+21,"The Killing of a Sacred Deer",Thriller,8.45,2024-08-31
+1,"Nickel Boys",Drama,7.14,2024-06-05
+17,Bridesmaids,Comedy,4.05,
+1,"Alien: Romulus",Sci-Fi,6.5,2024-09-09
+2,"The Killing of a Sacred Deer",Thriller,4.89,2024-07-10
+3,"The Exorcist",Horror,1.91,2024-06-20
+3,,,5.47,2024-03-23
+5,"Alien: Romulus",Sci-Fi,6.21,2024-03-27
+8,Wicked,Musical,5.42,2024-09-17
+10,"The Exorcist",Horror,7.52,2024-04-07
+14,"Alien: Romulus",Sci-Fi,6.09,2024-07-27
+14,Wicked,Musical,2.61,2024-11-28
+15,Bridesmaids,Comedy,1.13,2024-01-28
+16,"Alien: Romulus",Sci-Fi,3.06,2024-04-06
+17,"Nickel Boys",Drama,2.77,2024-12-29
+19,"Nickel Boys",Drama,8.98,2024-10-23
+19,"The Killing of a Sacred Deer",Thriller,9.09,2024-06-16
+21,"Alien: Romulus",Sci-Fi,7.79,2024-01-19
+22,Wicked,Musical,6.24,2024-12-24
+15,Thelma,Comedy,7.89,2024-07-02
+3,Thelma,Comedy,10.0,2025-07-02
+33,Thelma,Comedy,8.2,2024-10-01

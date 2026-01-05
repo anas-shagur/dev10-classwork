@@ -1,0 +1,32 @@
+GET http://127.0.0.1:5000/person HTTP/1.1
+
+###
+
+GET http://127.0.0.1:5000/person/10 HTTP/1.1
+
+###
+
+POST http://127.0.0.1:5000/person HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "skitteringhama",
+    "email": "skitteringhama@telegraph.co.uk",
+    "name": "Saunder Kitteringham"
+}
+
+###
+
+PUT http://127.0.0.1:5000/person/11 HTTP/1.1
+Content-Type: application/json
+
+{
+    "person_id": 11,
+    "username": "skitteringhama",
+    "email": "skitteringhama@telegraph.co.ukx",
+    "name": "Saunder Kitteringhamx"
+}
+
+###
+
+DELETE http://127.0.0.1:5000/person/11 HTTP/1.1

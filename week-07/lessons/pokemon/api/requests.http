@@ -1,0 +1,21 @@
+GET http://127.0.0.1:5000/pokemon HTTP/1.1
+
+###
+
+GET http://127.0.0.1:5000/pokemon?page=5 HTTP/1.1
+
+###
+
+GET http://127.0.0.1:5000/pokemon?page=10 HTTP/1.1
+
+###
+
+GET http://127.0.0.1:5000/pokemon?page=14 HTTP/1.1
+
+###
+
+GET http://127.0.0.1:5000/pokemon?page=25 HTTP/1.1
+
+###
+
+GET http://127.0.0.1:5000/pokemon?page=meatloaf HTTP/1.1

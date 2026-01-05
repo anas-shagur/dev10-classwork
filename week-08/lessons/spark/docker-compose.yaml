@@ -1,0 +1,13 @@
+services:
+  spark:
+    image: apache/spark:3.5.6-java17-python3
+    container_name: spark
+    hostname: spark
+    ports:
+      - 8081:8080 # Spark Web UI
+    volumes:
+      - ./work-dir:/opt/spark/work-dir
+      - ./conf:/opt/spark/conf
+    command: |
+      /bin/bash -c "/opt/spark/bin/spark-class org.apache.spark.deploy.master.Master -h spark &&
+      /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark:7077"

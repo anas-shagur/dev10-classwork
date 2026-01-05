@@ -1,0 +1,20 @@
+.git
+.gitignore
+.dockerignore
+Dockerfile
+requests.http
+
+# Mac
+bin/
+etc/
+lib/
+share/
+include/
+
+# Windows
+Include/
+Lib/
+Scripts/
+
+# All
+pyvenv.cfg

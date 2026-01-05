@@ -1,0 +1,58 @@
+use crowd_funding_fulfillment;
+
+-- Complete the following exercises by creating views. Write the queries
+-- first and verify them before embedding them in views.
+
+-- 1. Create a view that returns each company and their 
+-- company_type label in alphabetical order by company name. 
+-- Columns: company_name, company_type
+-- Select * from your view
+-- Expected: 32 rows, 2 columns
+-- First row: 'Bards & Cards','Retailer'
+
+-- 2. Create a view called 'us_orders_to_ship' that can be used to 
+-- ship unfulfilled US orders. The warehouse team expects a spreadsheet 
+-- with 1 row per order/sku and the following specific columns:
+-- * 'order id'
+-- * 'recipient name'
+-- * 'recipient email'
+-- * 'shipping address 1' 
+-- * 'shipping address 2'
+-- * 'shipping city'
+-- * 'shipping state/province'
+-- * 'shipping country code'
+-- * 'shipping postal code'
+-- * 'sku'
+-- * 'quantity'
+-- The view should only return orders with US addresses and the
+-- order_status 'PLACED_AND_PAID' and a NULL fulfilled_date, 
+-- Hint: build and test your query before making a view out of it.
+-- Select * from us_orders_to_ship
+-- Expected: 1386 rows, 11 columns
+
+-- 3. A different format is required for fulfillment of
+-- orders in the UK and Europe. Create a view, 'uk_eu_orders_to_ship'.
+-- The requirements are different - they want one row per order.
+-- SKUs associated with the order should be concatenated into a 
+-- comma delimited string with the count of each sku per order. 
+-- Example: 'DAG0101x1, DAG0103x1, ...' etc. 
+-- Expected columns:
+-- * 'order id'
+-- * 'recipient name'
+-- * 'recipient email'
+-- * 'shipping address 1' 
+-- * 'shipping address 2'
+-- * 'shipping city'
+-- * 'shipping state/province'
+-- * 'shipping country code'
+-- * 'shipping postal code'
+-- * 'order_items' <-- this is where the comma delimited SKUs go
+-- The view should only return unfulfilled orders with the the order_status 
+-- 'PLACED_AND_PAID' and addresses from the following country codes:
+-- AN, AT, CZ, DE, DK, ES, FI, FR, GR, IE, IS, IT, MC, NO, PL, PT, SE, SK, and GB. 
+-- Hint: Most of the previous exercise solution can be used.
+-- Hint: Look up the function `group_concat()` you will need 
+-- both that and `concat(sku, 'x', count)` to get the correct format.
+-- select * from uk_eu_orders_to_ship, order by full_name
+-- Expected: 45 rows, 10 columns
+-- Row 1: full_name: 'Antony Minton', ... order_items: 'DAG0201x1,DAG0235x1'

@@ -1,0 +1,18 @@
+services:
+  # the database
+  db:
+    build: ./db
+    hostname: db
+    environment:
+      - MARIADB_ROOT_PASSWORD=${DB_PASSWORD}
+  # the api
+  api:
+    build: ./api
+    hostname: api
+    environment:
+      - MARIADB_ROOT_PASSWORD=${DB_PASSWORD}
+    ports:
+      - 5000:5000
+    depends_on:
+      - db
+    restart: on-failure:3
