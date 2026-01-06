@@ -1,4 +1,4 @@
-purchase_quantity = 2
+purchase_quantity = 6
 has_coupon = False
 
 # 1. Declare a boolean variable has_discount.
@@ -7,3 +7,6 @@ has_coupon = False
 # 3. Print the result.
 # 4. Change the values of purchase_quantity and has_coupon to get both true and false results 
 # for has_discount in different ways.
+
+has_discount = purchase_quantity >= 6 or has_coupon == True
+print(has_discount)

@@ -10,3 +10,7 @@ value = 24
 # - between 21 and 109
 # - between 110 and 120
 # - greater than 120
+
+value  = 125
+in_range = (value > 10 and value < 20) or (value > 110 and value < 120)
+print(in_range)

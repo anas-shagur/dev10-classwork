@@ -2,5 +2,5 @@
 # to the number of months until your birthday.
 # 2. Run the code.
 
-months_until_my_birthday = -1
+months_until_my_birthday = 3
 print(months_until_my_birthday)
