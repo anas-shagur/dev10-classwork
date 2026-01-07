@@ -8,5 +8,5 @@ has_coupon = False
 # 4. Change the values of purchase_quantity and has_coupon to get both true and false results 
 # for has_discount in different ways.
 
-has_discount = purchase_quantity >= 6 or has_coupon == True
+has_discount = purchase_quantity >= 6 or has_coupon
 print(has_discount)

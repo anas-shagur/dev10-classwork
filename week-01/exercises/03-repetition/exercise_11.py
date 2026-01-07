@@ -13,3 +13,10 @@ phrase = input("Enter a word: ")
 # " " -> "  " (but whitespace should be doubled)
 # "open & shut" -> "ooppeenn  &&  sshhuutt"
 # "Eep" -> "EEeepp"
+
+result = ""
+
+for i in range(len(phrase)):
+    result += phrase[i] + phrase[i] 
+
+print(result)

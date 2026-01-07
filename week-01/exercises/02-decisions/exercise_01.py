@@ -4,6 +4,6 @@ value = input("Enter a value: ")
 print(value)
 
 # 2. Change the if condition to check for a string length greater than 0.
-if value[0] == "1":
+if len(value) > 0:
     # 3. Replace the current message with the value variable.
-    print("Value starts with the number 1.")
+    print(value)

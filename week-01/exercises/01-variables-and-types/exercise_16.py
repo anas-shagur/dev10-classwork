@@ -6,3 +6,5 @@
 
 adjective = "happy"
 noun = "moon"
+phrase = adjective + " " + noun
+print(phrase)

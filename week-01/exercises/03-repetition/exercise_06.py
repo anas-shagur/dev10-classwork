@@ -4,3 +4,8 @@
 
 for i in range(3, 213, 13):
     print(i)
+
+index = 3
+while index < 213:
+    print(index)
+    index += 13

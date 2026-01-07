@@ -14,3 +14,9 @@ value = input("# of Shoppers: ")
 shopper_count = int(value)
 
 # 1. Apply if/else here.
+if snorkeler_count % 2 == 1:
+    shopper_count += snorkeler_count
+    snorkeler_count = 0
+
+print("Number of snorkelers: {}".format(snorkeler_count))
+print("Number of shoppers: {}".format(shopper_count))

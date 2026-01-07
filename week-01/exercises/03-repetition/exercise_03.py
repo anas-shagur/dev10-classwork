@@ -8,3 +8,8 @@
 # 19
 # 18
 # 17
+
+index = 23
+while index > 16:
+    print(index)
+    index -= 1

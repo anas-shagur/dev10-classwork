@@ -8,3 +8,8 @@
 # 8
 # 10
 # 12
+
+index = 2
+while index < 13:
+    print(index)
+    index += 2

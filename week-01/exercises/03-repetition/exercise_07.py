@@ -9,6 +9,7 @@ phrase = input("Enter a phrase and I'll remove the whitespace: ")
 
 result = ""
 for char in phrase:
+    if char 
     result += char
 
 

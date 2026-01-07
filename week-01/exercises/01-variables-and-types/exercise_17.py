@@ -8,3 +8,6 @@ is_shiny = True
 # Gem Count: 12
 # Velocity: 33.654
 # Is Shiny: true
+print("Gem Count: {}".format(gem_count))
+print("Velocity: {}".format(velocity))
+print("Is Shiny: {}".format(is_shiny))

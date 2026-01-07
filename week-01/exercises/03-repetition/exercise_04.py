@@ -9,3 +9,7 @@ increment = int(input("Increment: "))
 # Hint: use the `range` function for a `for` loop
 # and/or use a `while` loop with a condition that compares the start and end values.
 # Print the result.
+
+while start < end:
+    print(start)
+    start += increment

@@ -11,6 +11,12 @@ day_of_week = input("Day of the week: ")
 # 1. Create if/else statements to enforce Abdi's homework rules.
 # 2. Print data-rich messages for each scenario.
 
+if(day_of_week[0].upper() == 'S' and hours_of_homework < 15):
+    print("No work today! Time to watch Netflix")
+else:
+    print("Time to hit those books buddy")
+
+
 # Examples
 # Hours of homework: 12
 # Day of week: Saturday

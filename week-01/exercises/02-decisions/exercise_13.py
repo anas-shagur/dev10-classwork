@@ -3,6 +3,12 @@
 needle = input("Needle: ")
 haystack = input("Haystack: ")
 
+if needle in haystack:
+    print("yes")
+else:
+    print("no")
+
+
 # 1. Given two string variables: needle and haystack, determine if haystack contains needle.
 # Examples
 # needle  haystack contains?

@@ -5,3 +5,8 @@ secret = input("Enter the secret word: ")
 #   You're correct. The secret word is "tahini".
 # Otherwise, print:
 #   That's not quite right. Try again.
+
+if secret == "tahini":
+    print("You're correct. The secret word is tahini.")
+else:
+    print("That's not quite right. Try again.")

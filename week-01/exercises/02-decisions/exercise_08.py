@@ -8,10 +8,16 @@ opposite = None
 word = word.lower()
 if word == "high":
     opposite = "low"
-elif word == "cold":
-    opposite = "hot"
+elif word == "hot":
+    opposite = "cold"
 elif word == "little":
     opposite = "big"
+elif word == "yes":
+    opposite = "no"
+elif word == "in":
+    opposite = "out"
+elif word == "up":
+    opposite = "down"
 
 if opposite is None:
     print(f"I don't have an opposite for {word}.")

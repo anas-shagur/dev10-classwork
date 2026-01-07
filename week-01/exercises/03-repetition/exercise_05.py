@@ -6,3 +6,10 @@ index = 5
 while index <= 100:
     print(index)
     index += 5
+
+index = 5
+rng = range(5, 101, 5)
+for i in rng:
+    print(index)
+    index += 5
+    
