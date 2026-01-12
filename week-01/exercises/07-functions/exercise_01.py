@@ -30,6 +30,10 @@ def get_random_compliment():
 if __name__ == "__main__":
     first_compliment = get_random_compliment()
     print(first_compliment)
+    second_compliment = get_random_compliment()
+    third_compliment = get_random_compliment()
+    print(second_compliment)
+    print(third_compliment)
 
     # Call the get_random_compliment method two more times.
     # 1. Store the result in a new string variable.

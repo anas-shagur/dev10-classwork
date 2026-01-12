@@ -1,7 +1,7 @@
 # miles_to_kilometers converts miles to kilometers.
 # 1. Complete the miles_to_kilometers method.
 def miles_to_kilometers(miles):
-    return 0
+    return miles * 1.60934
 
 
 if __name__ == "__main__":
