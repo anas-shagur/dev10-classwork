@@ -2,6 +2,10 @@
 # 1. Complete get_first_vowel.
 # If no vowel is found, return None.
 def get_first_vowel(value):
+    vowels = 'aeiou'
+    for char in value:
+        if char.lower() in vowels:
+            return char
     return None
 
 
