@@ -46,12 +46,12 @@ def parse_file(file_path):
 
         for row in reader:
             player = (
-                int(row[0]),        # id
-                row[1],             # player_name
-                row[2],             # club
-                row[3],             # nationality
-                int(row[4]),        # height_cm
-                float(row[5])       # avg_goals_per_game
+                int(row[0]),        
+                row[1],             
+                row[2],             
+                row[3],             
+                int(row[4]),        
+                float(row[5])       
             )
             players.append(player)
 
@@ -60,7 +60,6 @@ def parse_file(file_path):
 def calculate_central_tendencies():
     records = parse_file(FILE_PATH)
 
-    # list comprehension to extract float data (avg_goals_per_game)
     goals = [player[5] for player in records]
 
     mean_goals = statistics.mean(goals)
