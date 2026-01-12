@@ -6,6 +6,7 @@ def make_random_list():
     Generates a list[int] of length between 50 and 150,
     whose elements are randomly generated between -500 and 500.
 
+    
     Args:
         None
 
@@ -21,7 +22,14 @@ def make_random_list():
 
 if __name__ == "__main__":
     values = make_random_list()
-
+    positives = []
+    for i in range(len(values)):
+        if(values[i] >= 0):
+            positives.append(values[i])
+    
+    for i in range(len(positives)):
+        print(positives[i])
+    
     # 1. Create a list[int] to hold the positive elements.
     # 2. Loop through `values` and add positive elements to the list.
     # 3. Confirm the positive list is properly populated either by debugging or printing its elements.

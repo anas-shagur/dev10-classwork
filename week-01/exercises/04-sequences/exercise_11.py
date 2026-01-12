@@ -27,6 +27,11 @@ def make_random_state_town_list():
 
 if __name__ == "__main__":
     states_or_towns = make_random_state_town_list()
+    towns = []
+    for i in range(len(states_or_towns)):
+        if len(states_or_towns[i]) != 2:
+            towns.append(states_or_towns[i])
+    print(towns)
 
     # The states_or_towns list contains either state abbreviations or town names.
     # You can distinguish state abbreviations by their length. They're always two characters.

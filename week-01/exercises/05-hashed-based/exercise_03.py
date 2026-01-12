@@ -12,3 +12,10 @@ print(vehicle_map)
 
 # You can also use the https://docs.python.org/3/library/stdtypes.html#dict.setdefault
 # method to add a new vehicle tuple to the map.
+
+vin = "1"
+vehicle = (vin, "Kia", "Sportage", 2026, "White")
+
+vehicle_map[vin] = vehicle
+
+print(vehicle_map[vin])

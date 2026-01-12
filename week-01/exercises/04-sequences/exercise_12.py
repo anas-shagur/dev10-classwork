@@ -36,6 +36,8 @@ if __name__ == "__main__":
 
     # The email addresses above are valid, but have inconsistent capitalization.
     # 1. Fix the capitalization. Normalize to all lowercase.
+    for i in range(len(email_addresses)):
+        email_addresses[i] = email_addresses[i].lower()
 
     # The following call should print all lowercase email addresses.
     print(email_addresses)

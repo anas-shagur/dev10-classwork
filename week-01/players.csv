@@ -1,0 +1,21 @@
+id,player_name,club,nationality,height_cm,avg_goals_per_game
+1,Lionel Messi,Inter Miami,Argentina,170,0.79
+2,Cristiano Ronaldo,Al Nassr,Portugal,187,0.73
+3,Erling Haaland,Manchester City,Norway,194,0.98
+4,Kylian Mbappe,PSG,France,178,0.82
+5,Robert Lewandowski,Barcelona,Poland,185,0.75
+6,Harry Kane,Bayern Munich,England,188,0.76
+7,Mohamed Salah,Liverpool,Egypt,175,0.67
+8,Karim Benzema,Al Ittihad,France,185,0.64
+9,Victor Osimhen,Napoli,Nigeria,186,0.71
+10,Lautaro Martinez,Inter Milan,Argentina,174,0.69
+11,Romelu Lukaku,Roma,Belgium,191,0.60
+12,Antoine Griezmann,Atletico Madrid,France,176,0.56
+13,Neymar Jr,Al Hilal,Brazil,175,0.68
+14,Son Heung-min,Tottenham,South Korea,183,0.62
+15,Darwin Nunez,Liverpool,Uruguay,187,0.58
+16,Julian Alvarez,Manchester City,Argentina,170,0.56
+17,Paulo Dybala,Roma,Argentina,177,0.59
+18,Alexander Isak,Newcastle United,Sweden,192,0.63
+19,Marcus Rashford,Manchester United,England,180,0.61
+20,Victor Boniface,Bayer Leverkusen,Nigeria,190,0.56

@@ -4,3 +4,11 @@ items = ["ball", "balloon"]
 #    color and item in the lists above using nested list comprehension.
 # 2. Print the list to the console.
 # Expected output: [('red', 'ball'), ('red', 'balloon'), ('green', 'ball'), ('green', 'balloon'), ('blue', 'ball'), ('blue', 'balloon')]
+
+combinations = [
+    (color, item)
+    for color in colors
+    for item in items
+]
+
+print(combinations)

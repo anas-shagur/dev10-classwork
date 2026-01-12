@@ -10,6 +10,16 @@ def make_bug_list():
 
 if __name__ == "__main__":
     bugs = make_bug_list()
+    beetles = 0
+    mosquitoes = 0
+    for i in range(len(bugs)):
+        if bugs[i] == "beetle":
+            beetles += 1
+        else:
+            mosquitoes += 1
+    print(f"Beetles: {beetles}")
+    print(f"Mosquitoes: {mosquitoes}")
+
 
     # The bugs list elements are either the value "beetle" or "mosquito".
     # 1. Count the number of beetles and mosquitoes.

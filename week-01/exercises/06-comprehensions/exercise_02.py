@@ -2,3 +2,7 @@
 # Hint: You can either use a condition or the step argument in the range() function.
 # 2. Print the list to the console.
 # Expected: [2, 4, 6, 8, 10]
+
+numbers = [i for i in range(0,11,2)]
+
+print(numbers)

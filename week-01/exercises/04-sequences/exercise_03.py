@@ -9,6 +9,11 @@ commonly_misspelled_words = [
 for word in commonly_misspelled_words:
     print(word)
 
+commonly_misspelled_words[3] = "comparison"
+
+for word in commonly_misspelled_words:
+    print(word)
+
 # One of the commonly_misspelled_words is misspelled.
 # 1. Change it to the correct spelling. Don't alter the list literal declaration. Set the value by index.
 # (We can always use the VS Code spell-checker extension:

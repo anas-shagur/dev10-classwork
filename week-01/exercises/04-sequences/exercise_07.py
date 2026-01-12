@@ -18,6 +18,11 @@ def make_random_list():
         result.append(random.randint(-500, 500))
     return result
 
+def sum_list(list):
+    sum = 0
+    for i in range(len(list)):
+        sum += list[i]
+    return sum
 
 # 1. Create a method.
 # Name: sum_list
@@ -29,7 +34,7 @@ if __name__ == "__main__":
     values = make_random_list()
     # 2. Uncomment the code below and make it work.
 
-    # sum = sum_list(values)
-    # print(sum)
-    # print(sum_list(make_random_list()))
-    # print(sum_list(make_random_list()))
+    sum = sum_list(values)
+    print(sum)
+    print(sum_list(make_random_list()))
+    print(sum_list(make_random_list()))

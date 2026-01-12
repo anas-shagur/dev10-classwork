@@ -1,7 +1,9 @@
 import csv
 from math import sqrt
 import statistics as stats
+import os
 
+# print(os.getcwd())
 with open("cars93.csv", "rt") as f:
     reader = csv.DictReader(f)
     prices = [float(row["Price"]) for row in reader]

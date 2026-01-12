@@ -26,3 +26,11 @@ if __name__ == "__main__":
     # 2. Print the result.
     # Since the list is random, your result will vary during each run.
     # 3. Print the length of the list.
+
+sum = 0
+
+for i in range(len(values)):
+    sum += values[i]
+
+print(f"Sum is {sum}.")
+print(f"Length of the list is {len(values)}.")
