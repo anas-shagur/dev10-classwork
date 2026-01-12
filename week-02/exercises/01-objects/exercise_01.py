@@ -10,6 +10,12 @@ def main():
     # 3. Instantiate two more musicians and assign them to new variables.
     # 4. Print the musicians' names to the console.
 
+    kanye = Musician("Kanye West", 1)
+    print(kanye.name)
+
+    sabrina = Musician("Sabrina Carpenter", 5)
+    print(sabrina.name)
+
 
 if __name__ == "__main__":
     main()

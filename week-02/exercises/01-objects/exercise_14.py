@@ -1,4 +1,4 @@
-# from hero import Hero, Power
+from hero import Hero, Power
 
 
 def main():
@@ -6,25 +6,25 @@ def main():
     # 2. Fix any errors by editing the Hero class.
     # 3. Confirm the output matches Expected Output.
 
-    # levitation = Power("Levitation")
-    # flight = Power("Flight")
-    # blastPower = Power("Blast Power")
+    levitation = Power("Levitation")
+    flight = Power("Flight")
+    blastPower = Power("Blast Power")
 
-    # heroes = [
-    #     Hero("Vision", [levitation, blastPower]),
-    #     Hero("Scarlet Witch", [levitation, flight, Power("Necromancy")]),
-    #     Hero("Bumblebee", [blastPower, flight]),
-    # ]
+    heroes = [
+        Hero("Vision", [levitation, blastPower]),
+        Hero("Scarlet Witch", [levitation, flight, Power("Necromancy")]),
+        Hero("Bumblebee", [blastPower, flight]),
+    ]
 
-    # for hero in heroes:
-    #     print(hero.name + ": ", end="")
+    for hero in heroes:
+        print(hero.name + ": ", end="")
 
-    #     delimiter = ""
-    #     for p in hero.powers:
-    #         print(delimiter, end="")
-    #         delimiter = ","
-    #         print(p.name, end="")
-    #     print()
+        delimiter = ""
+        for p in hero.powers:
+            print(delimiter, end="")
+            delimiter = ","
+            print(p.name, end="")
+        print()
 
     # Expected Output:
     # Vision: Levitation,Blast Power

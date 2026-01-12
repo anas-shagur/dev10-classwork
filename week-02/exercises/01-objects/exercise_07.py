@@ -1,4 +1,4 @@
-# from balloon import Balloon
+from balloon import Balloon
 
 
 def main():
@@ -6,13 +6,13 @@ def main():
     # 2. Fix any errors by editing the Balloon class, not this code.
     # 3. Run it and confirm its output.
 
-    # one = Balloon("red")
-    # two = Balloon("yellow")
-    # three = Balloon("blue")
+    one = Balloon("red")
+    two = Balloon("yellow")
+    three = Balloon("blue")
 
-    # print(f"{one.color}: {one.psi}")
-    # print(f"{two.color}: {two.psi}")
-    # print(f"{three.color}: {three.psi}")
+    print(f"{one.color}: {one.psi}")
+    print(f"{two.color}: {two.psi}")
+    print(f"{three.color}: {three.psi}")
 
     # Expected Output
     # red: 0.0

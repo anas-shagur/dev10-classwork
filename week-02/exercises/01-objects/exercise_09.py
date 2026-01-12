@@ -1,4 +1,4 @@
-# from balloon import Balloon
+from balloon import Balloon
 
 # 1. Create a new method in the Balloon class.
 # Name: is_exploded
@@ -17,10 +17,10 @@ def main():
     # 4. Fix any errors by editing the Balloon class.
     # 5. Confirm the output is similar to Sample Output
 
-    # b = Balloon("orange")
-    # for _ in range(10):
-    #     b.inflate()
-    #     print(f"psi:{b.psi}, exploded?:{"yes" if b.is_exploded() else "no"}")
+    b = Balloon("orange")
+    for _ in range(10):
+        b.inflate()
+        print(f"psi:{b.psi}, exploded?:{"yes" if b.is_exploded() else "no"}")
 
     # Sample Output
     # psi:3.168552425925846, exploded?:no

@@ -1,4 +1,4 @@
-# from balloon import Balloon
+from balloon import Balloon
 
 # 1. Create a new method in the Balloon class.
 # Name: inflate
@@ -13,10 +13,10 @@ def main():
     # 3. Fix any errors by editing the Balloon class.
     # 4. Confirm the output is similar to Sample Output
 
-    # b = Balloon("green")
-    # for _ in range(10):
-    #     b.inflate()
-    #     print(f"psi: {b.psi}")
+    b = Balloon("green")
+    for _ in range(10):
+        b.inflate()
+        print(f"psi: {b.psi}")
 
     # Sample Output (expected varies because of randomness)
     # psi:4.527504731304849

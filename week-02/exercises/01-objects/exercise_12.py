@@ -1,4 +1,4 @@
-# from hero import Power
+from hero import Power
 
 
 def main():
@@ -6,16 +6,16 @@ def main():
     # 2. Fix any errors by editing the Power class.
     # 3. Confirm the output matches Expected Output.
 
-    # powers = [
-    #     Power("Flight"),
-    #     Power("Invisibility"),
-    #     Power("Strength"),
-    #     Power("Laser Beam Eyes"),
-    #     Power("Shapeshifting"),
-    # ]
+    powers = [
+        Power("Flight"),
+        Power("Invisibility"),
+        Power("Strength"),
+        Power("Laser Beam Eyes"),
+        Power("Shapeshifting"),
+    ]
 
-    # for power in powers:
-    #     print(power.name)
+    for power in powers:
+        print(power.name)
 
     # Expected Output:
     # Flight
