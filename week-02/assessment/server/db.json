@@ -1,0 +1,164 @@
+{
+  "player": [
+    {
+      "id": 1,
+      "player_name": "Lionel Messi",
+      "club": "Inter Miami CF",
+      "nationality": "Argentina",
+      "height_cm": 170,
+      "avg_goals_per_game": 0.78
+    },
+    {
+      "id": 2,
+      "player_name": "Cristiano Ronaldo",
+      "club": "Al Nassr",
+      "nationality": "Portugal",
+      "height_cm": 187,
+      "avg_goals_per_game": 0.73
+    },
+    {
+      "id": 3,
+      "player_name": "Erling Haaland",
+      "club": "Manchester City",
+      "nationality": "Norway",
+      "height_cm": 194,
+      "avg_goals_per_game": 0.98
+    },
+    {
+      "id": 4,
+      "player_name": "Kylian Mbappe",
+      "club": "PSG",
+      "nationality": "France",
+      "height_cm": 178,
+      "avg_goals_per_game": 0.82
+    },
+    {
+      "id": 5,
+      "player_name": "Robert Lewandowski",
+      "club": "Barcelona",
+      "nationality": "Poland",
+      "height_cm": 185,
+      "avg_goals_per_game": 0.75
+    },
+    {
+      "id": 6,
+      "player_name": "Harry Kane",
+      "club": "Bayern Munich",
+      "nationality": "England",
+      "height_cm": 188,
+      "avg_goals_per_game": 0.76
+    },
+    {
+      "id": 7,
+      "player_name": "Mohamed Salah",
+      "club": "Liverpool",
+      "nationality": "Egypt",
+      "height_cm": 175,
+      "avg_goals_per_game": 0.67
+    },
+    {
+      "id": 8,
+      "player_name": "Karim Benzema",
+      "club": "Al Ittihad",
+      "nationality": "France",
+      "height_cm": 185,
+      "avg_goals_per_game": 0.64
+    },
+    {
+      "id": 9,
+      "player_name": "Victor Osimhen",
+      "club": "Napoli",
+      "nationality": "Nigeria",
+      "height_cm": 186,
+      "avg_goals_per_game": 0.71
+    },
+    {
+      "id": 10,
+      "player_name": "Lautaro Martinez",
+      "club": "Inter Milan",
+      "nationality": "Argentina",
+      "height_cm": 174,
+      "avg_goals_per_game": 0.69
+    },
+    {
+      "id": 11,
+      "player_name": "Romelu Lukaku",
+      "club": "Roma",
+      "nationality": "Belgium",
+      "height_cm": 191,
+      "avg_goals_per_game": 0.6
+    },
+    {
+      "id": 12,
+      "player_name": "Antoine Griezmann",
+      "club": "Atletico Madrid",
+      "nationality": "France",
+      "height_cm": 176,
+      "avg_goals_per_game": 0.56
+    },
+    {
+      "id": 13,
+      "player_name": "Neymar Jr",
+      "club": "Al Hilal",
+      "nationality": "Brazil",
+      "height_cm": 175,
+      "avg_goals_per_game": 0.68
+    },
+    {
+      "id": 14,
+      "player_name": "Son Heung-min",
+      "club": "Tottenham",
+      "nationality": "South Korea",
+      "height_cm": 183,
+      "avg_goals_per_game": 0.62
+    },
+    {
+      "id": 15,
+      "player_name": "Darwin Nunez",
+      "club": "Liverpool",
+      "nationality": "Uruguay",
+      "height_cm": 187,
+      "avg_goals_per_game": 0.58
+    },
+    {
+      "id": 16,
+      "player_name": "Julian Alvarez",
+      "club": "Manchester City",
+      "nationality": "Argentina",
+      "height_cm": 170,
+      "avg_goals_per_game": 0.56
+    },
+    {
+      "id": 17,
+      "player_name": "Paulo Dybala",
+      "club": "Roma",
+      "nationality": "Argentina",
+      "height_cm": 177,
+      "avg_goals_per_game": 0.59
+    },
+    {
+      "id": 18,
+      "player_name": "Alexander Isak",
+      "club": "Newcastle United",
+      "nationality": "Sweden",
+      "height_cm": 192,
+      "avg_goals_per_game": 0.63
+    },
+    {
+      "id": 19,
+      "player_name": "Marcus Rashford",
+      "club": "Manchester United",
+      "nationality": "England",
+      "height_cm": 180,
+      "avg_goals_per_game": 0.61
+    },
+    {
+      "id": 20,
+      "player_name": "Victor Boniface",
+      "club": "Bayer Leverkusen",
+      "nationality": "Nigeria",
+      "height_cm": 190,
+      "avg_goals_per_game": 0.56
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+@url = http://127.0.0.1:5000
+
+# Player API Test Cases
+# GET, POST, PUT, DELETE
+
+### GET all players
+GET {{url}}/player HTTP/1.1
+
+### GET one player by id
+GET {{url}}/player/1 HTTP/1.1
+
+### GET a specific player (Haaland)
+GET {{url}}/player/3 HTTP/1.1
+
+### GET non-existent player (should return 404)
+GET {{url}}/player/999 HTTP/1.1
+
+### POST (create) a new player - Yaya Toure
+POST {{url}}/player HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": null,
+  "player_name": "Yaya Toure",
+  "club": "Manchester City",
+  "nationality": "Ivory Coast",
+  "height_cm": 188,
+  "avg_goals_per_game": 0.15
+}
+
+### POST (create) another player - Kevin De Bruyne
+POST {{url}}/player HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": null,
+  "player_name": "Kevin De Bruyne",
+  "club": "Manchester City",
+  "nationality": "Belgium",
+  "height_cm": 181,
+  "avg_goals_per_game": 0.22
+}
+
+### POST (create) a player - Vinicius Jr
+POST {{url}}/player HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "player_name": "Vinicius Jr",
+  "club": "Real Madrid",
+  "nationality": "Brazil",
+  "height_cm": 176,
+  "avg_goals_per_game": 0.54
+}
+
+### PUT (update) an existing player - update Messi's club
+PUT {{url}}/player/1 HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "player_name": "Lionel Messi",
+  "club": "Inter Miami CF",
+  "nationality": "Argentina",
+  "height_cm": 170,
+  "avg_goals_per_game": 0.78
+}
+
+### PUT (update) - change Ronaldo's stats
+PUT {{url}}/player/2 HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 2,
+  "player_name": "Cristiano Ronaldo",
+  "club": "Al Nassr",
+  "nationality": "Portugal",
+  "height_cm": 187,
+  "avg_goals_per_game": 0.78
+}
+
+### PUT (update) - update Haaland's goals per game
+PUT {{url}}/player/3 HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 3,
+  "player_name": "Erling Haaland",
+  "club": "Manchester City",
+  "nationality": "Norway",
+  "height_cm": 194,
+  "avg_goals_per_game": 1.05
+}
+
+### PUT with mismatched IDs (should return 400)
+PUT {{url}}/player/5 HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 99,
+  "player_name": "Test Player",
+  "club": "Test Club",
+  "nationality": "Test Country",
+  "height_cm": 180,
+  "avg_goals_per_game": 0.5
+}
+
+### PUT non-existent player (should return 404)
+PUT {{url}}/player/999 HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 999,
+  "player_name": "Ghost Player",
+  "club": "Phantom FC",
+  "nationality": "Nowhere",
+  "height_cm": 180,
+  "avg_goals_per_game": 0.0
+}
+
+### DELETE a player
+DELETE {{url}}/player/21 HTTP/1.1
+
+### DELETE another player
+DELETE {{url}}/player/22 HTTP/1.1
+
+### DELETE non-existent player (should return 404)
+DELETE {{url}}/player/9999 HTTP/1.1
+
+### POST with id already set (should auto-generate new id)
+POST {{url}}/player HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 0,
+  "player_name": "Phil Foden",
+  "club": "Manchester City",
+  "nationality": "England",
+  "height_cm": 171,
+  "avg_goals_per_game": 0.42
+}
