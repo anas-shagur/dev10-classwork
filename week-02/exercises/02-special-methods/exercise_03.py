@@ -46,3 +46,27 @@ import copy
 # 12. Stretch goal: Use the `Counter` class to count the number of tracks per artist.
 # Documentation: https://docs.python.org/3/library/collections.html#counter-objects
 # Print the artist and count.
+
+import copy
+from spotify_extractor import extract_tracks
+
+tracks = extract_tracks()
+
+for track in tracks:
+    print(track)
+
+track_copy = copy.deepcopy(tracks[0])
+print(tracks[0] == track_copy)
+
+print(tracks[0] == tracks[1])
+
+tracks.sort()
+
+for track in tracks[:25]:
+    print(track)
+
+dance_sorted = sorted(tracks, key=lambda t: t.danceability)
+
+print("\nTop 5 most danceable tracks:")
+for track in dance_sorted[-5:]:
+    print(f"{track} | danceability={track.danceability}")
