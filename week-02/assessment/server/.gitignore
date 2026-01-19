@@ -1,18 +1,2 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
-
-# Mac
-/bin
-/etc
-/lib
-/share
-/include
-
-# Windows
-/Include
-/Lib
-/Scripts
-
-# All
-pyvenv.cfg
-db.json
-requests.http
+*
