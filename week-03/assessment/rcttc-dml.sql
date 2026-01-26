@@ -197,6 +197,18 @@ where t.theater_name = '10 Pin'
       ) x
   );
 
+-- Delete all tickets booked by Liv Egle then delete Live Egle from the customer records
+delete tk
+from ticket tk
+join customer c on tk.customer_id = c.customer_id
+where c.first_name = 'Liv'
+  and c.last_name = 'Egle';
+
+delete from customer
+where first_name = 'Liv'
+  and last_name = 'Egle';
+
+
 select * from customer;
 select * from theater;
 select * from `show`;
