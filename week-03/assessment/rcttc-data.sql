@@ -1,6 +1,6 @@
-drop database if exists rcttc;
-create database rcttc;
-use rcttc;
+drop database if exists rcttc_raw;
+create database rcttc_raw;
+use rcttc_raw;
 
 drop table if exists rcttc_data;
 
