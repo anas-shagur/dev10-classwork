@@ -1,0 +1,177 @@
+[
+  {
+    "first_name": "Mai",
+    "exercise_class": "Yoga",
+    "quantity": 35,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Yoga Mat", "Yoga Blocks"]
+  },
+  {
+    "first_name": "Mai",
+    "exercise_class": "Indoor Cycling",
+    "quantity": 45,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Assault Bike"]
+  },
+  {
+    "first_name": "Ayan",
+    "exercise_class": "Spin",
+    "quantity": 42,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Spin Bike"]
+  },
+  {
+    "first_name": "José",
+    "exercise_class": "Bench Press",
+    "quantity": 12,
+    "reps_or_minutes": "reps",
+    "equipment": ["Barbell"]
+  },
+  {
+    "first_name": "Tou",
+    "exercise_class": "Pull Ups",
+    "quantity": 10,
+    "reps_or_minutes": "reps",
+    "equipment": ["Pull-up Bar"]
+  },
+  {
+    "first_name": "Hodan",
+    "exercise_class": "Zumba",
+    "quantity": 50,
+    "reps_or_minutes": "minutes",
+    "equipment": ["None"]
+  },
+  {
+    "first_name": "Maria Fernanda",
+    "exercise_class": "Pilates",
+    "quantity": 40,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Resistance Ring", "Reformer"]
+  },
+  {
+    "first_name": "Chue",
+    "exercise_class": "Kettlebell Swings",
+    "quantity": 18,
+    "reps_or_minutes": "reps",
+    "equipment": ["Kettlebells"]
+  },
+  {
+    "first_name": "Abdi",
+    "exercise_class": "Rowing",
+    "quantity": 30,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Rowing Machine"]
+  },
+  {
+    "first_name": "Luis",
+    "exercise_class": "Soccer Conditioning",
+    "quantity": 45,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Cones", "Soccer Ball"]
+  },
+  {
+    "first_name": "Mee",
+    "exercise_class": "Jump Rope",
+    "quantity": 120,
+    "reps_or_minutes": "reps",
+    "equipment": ["Jump Rope"]
+  },
+  {
+    "first_name": "Mee",
+    "exercise_class": "Chest Fly",
+    "quantity": 25,
+    "reps_or_minutes": "reps",
+    "equipment": ["Cable Machine"]
+  },
+  {
+    "first_name": "Ahmed",
+    "exercise_class": "Jog",
+    "quantity": 28,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Treadmill"]
+  },
+  {
+    "first_name": "Juan Carlos",
+    "exercise_class": "Lat Pulldown",
+    "quantity": 14,
+    "reps_or_minutes": "reps",
+    "equipment": ["Cable Machine"]
+  },
+  {
+    "first_name": "Yer",
+    "exercise_class": "Bodyweight Squats",
+    "quantity": 25,
+    "reps_or_minutes": "reps",
+    "equipment": ["None"]
+  },
+  {
+    "first_name": "Sahra",
+    "exercise_class": "Elliptical",
+    "quantity": 32,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Elliptical"]
+  },
+  {
+    "first_name": "Carlos",
+    "exercise_class": "Dumbbell Curls",
+    "quantity": 16,
+    "reps_or_minutes": "reps",
+    "equipment": ["Dumbbells"]
+  },
+  {
+    "first_name": "Bao",
+    "exercise_class": "Tai Chi",
+    "quantity": 30,
+    "reps_or_minutes": "minutes",
+    "equipment": ["None"]
+  },
+  {
+    "first_name": "Farah",
+    "exercise_class": "Core Circuit",
+    "quantity": 22,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Medicine Ball", "Kettlebells"]
+  },
+  {
+    "first_name": "Neng",
+    "exercise_class": "Resistance Bands",
+    "quantity": 20,
+    "reps_or_minutes": "reps",
+    "equipment": ["Resistance Bands"]
+  },
+  {
+    "first_name": "Neng",
+    "exercise_class": "Yoga",
+    "quantity": 45,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Yoga Mat", "Yoga Blocks"]
+  },
+  {
+    "first_name": "Isabella",
+    "exercise_class": "Step Aerobics",
+    "quantity": 38,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Step Platform"]
+  },
+  {
+    "first_name": "Pao",
+    "exercise_class": "Deadlift",
+    "quantity": 8,
+    "reps_or_minutes": "reps",
+    "equipment": ["Barbell"]
+  },
+  {
+    "first_name": "Omar",
+    "exercise_class": "Basketball Drills",
+    "quantity": 35,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Basketballs"]
+  },
+  {
+    "first_name": "Ana Maria",
+    "exercise_class": "Barre",
+    "quantity": 33,
+    "reps_or_minutes": "minutes",
+    "equipment": ["Yoga Strap", "Light Weights"]
+  }
+]
